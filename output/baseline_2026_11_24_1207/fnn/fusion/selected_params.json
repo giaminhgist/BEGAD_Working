@@ -1,0 +1,685 @@
+{
+ "0": {
+  "0": {
+   "params": {
+    "alpha": 0.001,
+    "hidden_layer_sizes": [
+     64,
+     32
+    ],
+    "class_weight": "balanced"
+   },
+   "config_idx": 15,
+   "inner_score": 0.7535714285714286,
+   "threshold": 0.029952960443718656,
+   "refit_seconds": 0.23895447200084163,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "1": {
+   "params": {
+    "alpha": 1,
+    "hidden_layer_sizes": [
+     32
+    ],
+    "class_weight": null
+   },
+   "config_idx": 4,
+   "inner_score": 0.6816012725344645,
+   "threshold": 0.2044155863162681,
+   "refit_seconds": 0.5235555250001198,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "2": {
+   "params": {
+    "alpha": 0.001,
+    "hidden_layer_sizes": [
+     64,
+     32
+    ],
+    "class_weight": null
+   },
+   "config_idx": 14,
+   "inner_score": 0.6451086956521739,
+   "threshold": 0.14924437058834042,
+   "refit_seconds": 0.1835623589995521,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "3": {
+   "params": {
+    "alpha": 1,
+    "hidden_layer_sizes": [
+     32
+    ],
+    "class_weight": null
+   },
+   "config_idx": 4,
+   "inner_score": 0.7129455909943715,
+   "threshold": 0.12084818016504462,
+   "refit_seconds": 0.47790230399914435,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  }
+ },
+ "1": {
+  "0": {
+   "params": {
+    "alpha": 1,
+    "hidden_layer_sizes": [
+     32
+    ],
+    "class_weight": null
+   },
+   "config_idx": 4,
+   "inner_score": 0.6483516483516484,
+   "threshold": 0.6736512646390983,
+   "refit_seconds": 0.5609502080005768,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "1": {
+   "params": {
+    "alpha": 10,
+    "hidden_layer_sizes": [
+     32
+    ],
+    "class_weight": null
+   },
+   "config_idx": 0,
+   "inner_score": 0.7136797454931071,
+   "threshold": 0.25516874281302,
+   "refit_seconds": 0.3855463990003045,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "2": {
+   "params": {
+    "alpha": 0.001,
+    "hidden_layer_sizes": [
+     64,
+     32
+    ],
+    "class_weight": null
+   },
+   "config_idx": 14,
+   "inner_score": 0.7073170731707317,
+   "threshold": 0.37173654904113024,
+   "refit_seconds": 0.17304023999895435,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "3": {
+   "params": {
+    "alpha": 0.001,
+    "hidden_layer_sizes": [
+     64,
+     32
+    ],
+    "class_weight": null
+   },
+   "config_idx": 14,
+   "inner_score": 0.7214673913043478,
+   "threshold": 0.09083383033971681,
+   "refit_seconds": 0.17036797299988393,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  }
+ },
+ "7": {
+  "0": {
+   "params": {
+    "alpha": 1,
+    "hidden_layer_sizes": [
+     32
+    ],
+    "class_weight": null
+   },
+   "config_idx": 4,
+   "inner_score": 0.753021978021978,
+   "threshold": 0.16760076620675254,
+   "refit_seconds": 0.46199842399983027,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "1": {
+   "params": {
+    "alpha": 10,
+    "hidden_layer_sizes": [
+     32
+    ],
+    "class_weight": null
+   },
+   "config_idx": 0,
+   "inner_score": 0.7601179308496382,
+   "threshold": 0.25405948107104337,
+   "refit_seconds": 0.425569187000292,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "2": {
+   "params": {
+    "alpha": 0.1,
+    "hidden_layer_sizes": [
+     64,
+     32
+    ],
+    "class_weight": null
+   },
+   "config_idx": 10,
+   "inner_score": 0.7388653234358431,
+   "threshold": 0.10932809371348377,
+   "refit_seconds": 0.45353256899943517,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "3": {
+   "params": {
+    "alpha": 1,
+    "hidden_layer_sizes": [
+     32
+    ],
+    "class_weight": null
+   },
+   "config_idx": 4,
+   "inner_score": 0.6345108695652174,
+   "threshold": 0.2772355733645463,
+   "refit_seconds": 0.4921146229989972,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  }
+ },
+ "13": {
+  "0": {
+   "params": {
+    "alpha": 1,
+    "hidden_layer_sizes": [
+     32
+    ],
+    "class_weight": null
+   },
+   "config_idx": 4,
+   "inner_score": 0.6244505494505495,
+   "threshold": 0.03016160677611702,
+   "refit_seconds": 0.456630814998789,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "1": {
+   "params": {
+    "alpha": 10,
+    "hidden_layer_sizes": [
+     32
+    ],
+    "class_weight": null
+   },
+   "config_idx": 0,
+   "inner_score": 0.6932661717921527,
+   "threshold": 0.0955357052648328,
+   "refit_seconds": 0.4313463189992035,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "2": {
+   "params": {
+    "alpha": 1,
+    "hidden_layer_sizes": [
+     32
+    ],
+    "class_weight": null
+   },
+   "config_idx": 4,
+   "inner_score": 0.7432065217391305,
+   "threshold": 0.137033479855061,
+   "refit_seconds": 0.46519271999932243,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "3": {
+   "params": {
+    "alpha": 0.1,
+    "hidden_layer_sizes": [
+     64,
+     32
+    ],
+    "class_weight": "balanced"
+   },
+   "config_idx": 11,
+   "inner_score": 0.7515411417850443,
+   "threshold": 0.3580260688111597,
+   "refit_seconds": 0.29281712400006654,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  }
+ },
+ "42": {
+  "0": {
+   "params": {
+    "alpha": 10,
+    "hidden_layer_sizes": [
+     32
+    ],
+    "class_weight": null
+   },
+   "config_idx": 0,
+   "inner_score": 0.7456043956043956,
+   "threshold": 0.15386078369224798,
+   "refit_seconds": 0.42006797199974244,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "1": {
+   "params": {
+    "alpha": 0.001,
+    "hidden_layer_sizes": [
+     64,
+     32
+    ],
+    "class_weight": "balanced"
+   },
+   "config_idx": 15,
+   "inner_score": 0.7520771911015813,
+   "threshold": 0.089431770216395,
+   "refit_seconds": 0.2132445130009728,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "2": {
+   "params": {
+    "alpha": 0.001,
+    "hidden_layer_sizes": [
+     64,
+     32
+    ],
+    "class_weight": "balanced"
+   },
+   "config_idx": 15,
+   "inner_score": 0.7309119830328739,
+   "threshold": 0.08539441925486191,
+   "refit_seconds": 0.21518343000025197,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "3": {
+   "params": {
+    "alpha": 0.001,
+    "hidden_layer_sizes": [
+     64,
+     32
+    ],
+    "class_weight": null
+   },
+   "config_idx": 14,
+   "inner_score": 0.7426630434782608,
+   "threshold": 0.05989894533680549,
+   "refit_seconds": 0.22629685300125857,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  }
+ },
+ "123": {
+  "0": {
+   "params": {
+    "alpha": 0.001,
+    "hidden_layer_sizes": [
+     64,
+     32
+    ],
+    "class_weight": null
+   },
+   "config_idx": 14,
+   "inner_score": 0.6898954703832753,
+   "threshold": 0.04994526320962041,
+   "refit_seconds": 0.21588708899980702,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "1": {
+   "params": {
+    "alpha": 0.1,
+    "hidden_layer_sizes": [
+     64,
+     32
+    ],
+    "class_weight": null
+   },
+   "config_idx": 10,
+   "inner_score": 0.7554945054945055,
+   "threshold": 0.05680034511332381,
+   "refit_seconds": 0.573144895999576,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "2": {
+   "params": {
+    "alpha": 0.1,
+    "hidden_layer_sizes": [
+     64,
+     32
+    ],
+    "class_weight": null
+   },
+   "config_idx": 10,
+   "inner_score": 0.7534464475079533,
+   "threshold": 0.04066224285881705,
+   "refit_seconds": 0.5150005640007294,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "3": {
+   "params": {
+    "alpha": 1,
+    "hidden_layer_sizes": [
+     32
+    ],
+    "class_weight": "balanced"
+   },
+   "config_idx": 5,
+   "inner_score": 0.7108695652173913,
+   "threshold": 0.06756626177027107,
+   "refit_seconds": 0.49454603900085203,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  }
+ },
+ "777": {
+  "0": {
+   "params": {
+    "alpha": 1,
+    "hidden_layer_sizes": [
+     32
+    ],
+    "class_weight": "balanced"
+   },
+   "config_idx": 5,
+   "inner_score": 0.640934065934066,
+   "threshold": 0.014695790563235967,
+   "refit_seconds": 0.5289680340010818,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "1": {
+   "params": {
+    "alpha": 1,
+    "hidden_layer_sizes": [
+     64,
+     32
+    ],
+    "class_weight": null
+   },
+   "config_idx": 6,
+   "inner_score": 0.7314422057264051,
+   "threshold": 0.018099062411747694,
+   "refit_seconds": 0.857517178001217,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "2": {
+   "params": {
+    "alpha": 0.001,
+    "hidden_layer_sizes": [
+     64,
+     32
+    ],
+    "class_weight": "balanced"
+   },
+   "config_idx": 15,
+   "inner_score": 0.7451085499865988,
+   "threshold": 0.03395119306320954,
+   "refit_seconds": 0.23927125299996987,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "3": {
+   "params": {
+    "alpha": 10,
+    "hidden_layer_sizes": [
+     64,
+     32
+    ],
+    "class_weight": null
+   },
+   "config_idx": 2,
+   "inner_score": 0.7078804347826086,
+   "threshold": 0.27726243570025244,
+   "refit_seconds": 0.8793086530004075,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  }
+ },
+ "1234": {
+  "0": {
+   "params": {
+    "alpha": 0.001,
+    "hidden_layer_sizes": [
+     64,
+     32
+    ],
+    "class_weight": "balanced"
+   },
+   "config_idx": 15,
+   "inner_score": 0.7302197802197802,
+   "threshold": 0.2786509857101169,
+   "refit_seconds": 0.20363591899877065,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "1": {
+   "params": {
+    "alpha": 0.001,
+    "hidden_layer_sizes": [
+     32
+    ],
+    "class_weight": null
+   },
+   "config_idx": 12,
+   "inner_score": 0.8022269353128314,
+   "threshold": 0.1784269252959066,
+   "refit_seconds": 0.14824821000001975,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "2": {
+   "params": {
+    "alpha": 0.1,
+    "hidden_layer_sizes": [
+     32
+    ],
+    "class_weight": "balanced"
+   },
+   "config_idx": 9,
+   "inner_score": 0.7103260869565218,
+   "threshold": 0.35171186924500997,
+   "refit_seconds": 0.17129323000153818,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "3": {
+   "params": {
+    "alpha": 10,
+    "hidden_layer_sizes": [
+     32
+    ],
+    "class_weight": null
+   },
+   "config_idx": 0,
+   "inner_score": 0.7126775663361029,
+   "threshold": 0.16009311136587054,
+   "refit_seconds": 0.41086662899942894,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  }
+ },
+ "2024": {
+  "0": {
+   "params": {
+    "alpha": 0.001,
+    "hidden_layer_sizes": [
+     64,
+     32
+    ],
+    "class_weight": "balanced"
+   },
+   "config_idx": 15,
+   "inner_score": 0.7412087912087912,
+   "threshold": 0.02330719499661001,
+   "refit_seconds": 0.19560965900018346,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "1": {
+   "params": {
+    "alpha": 0.1,
+    "hidden_layer_sizes": [
+     64,
+     32
+    ],
+    "class_weight": null
+   },
+   "config_idx": 10,
+   "inner_score": 0.6929347826086957,
+   "threshold": 0.007266722450406562,
+   "refit_seconds": 0.536489950000032,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "2": {
+   "params": {
+    "alpha": 0.001,
+    "hidden_layer_sizes": [
+     64,
+     32
+    ],
+    "class_weight": null
+   },
+   "config_idx": 14,
+   "inner_score": 0.7155355249204666,
+   "threshold": 0.07985177892654119,
+   "refit_seconds": 0.2171683579999808,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "3": {
+   "params": {
+    "alpha": 0.1,
+    "hidden_layer_sizes": [
+     64,
+     32
+    ],
+    "class_weight": "balanced"
+   },
+   "config_idx": 11,
+   "inner_score": 0.6748860895202359,
+   "threshold": 0.008942989703304748,
+   "refit_seconds": 0.5794447930002207,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  }
+ },
+ "3407": {
+  "0": {
+   "params": {
+    "alpha": 0.001,
+    "hidden_layer_sizes": [
+     64,
+     32
+    ],
+    "class_weight": null
+   },
+   "config_idx": 14,
+   "inner_score": 0.7299450549450549,
+   "threshold": 0.2849826198989273,
+   "refit_seconds": 0.16693567000038456,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "1": {
+   "params": {
+    "alpha": 0.1,
+    "hidden_layer_sizes": [
+     64,
+     32
+    ],
+    "class_weight": null
+   },
+   "config_idx": 10,
+   "inner_score": 0.7656415694591728,
+   "threshold": 0.17752986954138975,
+   "refit_seconds": 0.559629555000356,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "2": {
+   "params": {
+    "alpha": 0.001,
+    "hidden_layer_sizes": [
+     64,
+     32
+    ],
+    "class_weight": "balanced"
+   },
+   "config_idx": 15,
+   "inner_score": 0.7453804347826087,
+   "threshold": 0.20089739760115402,
+   "refit_seconds": 0.20853347499905794,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  },
+  "3": {
+   "params": {
+    "alpha": 1,
+    "hidden_layer_sizes": [
+     32
+    ],
+    "class_weight": null
+   },
+   "config_idx": 4,
+   "inner_score": 0.7443044760117931,
+   "threshold": 0.11694835406387386,
+   "refit_seconds": 0.5085766860011063,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 372,
+   "dropped_columns": []
+  }
+ }
+}

@@ -1,0 +1,41 @@
+# wide_fusion: one TabPFN per block (KD, reading) on one row per visit with the per-card features side by side, fused
+# (z scale) as a classifier score and a regression of the clinical composite C.
+tasks: [1, 3, 4, 5, 7, 9]
+blocks:
+  kd: [1, 3, 4, 5]            # KD demo (t1), KD_1-KD_3 (t3-t5)
+  reading: [7, 9]             # practice passage (t7), main passage (t9)
+expected_common_columns: {kd: 63, reading: 60}
+targets:
+  C:                          # the clinical composite of src/cognitive_fusion, recomputed from the training rows of every fit
+    kind: composite
+    sign: {mmse: -1, verbal: -1, word: -1, naming: -1, delayed: -1}
+    min_scores: 3
+tabpfn_feature_check: true    # feature-subsampling warnings are errors; per-estimator feature counts are logged and must equal the column count
+members:                      # each member = one TabPFN per block (KD, reading), one row per visit
+  wide_cls_e2:   {kind: classification, layout: wide, n_estimators: 2}
+  wide_reg_C_e2: {kind: regression,     layout: wide, n_estimators: 2, target: C}
+baseline_classifier:          # saved: 6 per-task baseline TabPFN classifiers
+  run: output/baseline_2026_11_24_1207
+  model: tabpfn
+saved_regressors:             # saved: 6 per-task cognitive_fusion C regressors (regression/task{t}/)
+  run: output/cognitive_fusion_2026_11_24_1305
+fused_cells:
+  wide_cf_w050: {classifier: wide_cls_e2, regressor: wide_reg_C_e2}
+descriptive_cells:            # score as is; value = the score frame (see derived.build_derived)
+  kd_meanprob: kd_meanprob    # saved members (no fit): mean of the 4 KD per-card classifiers
+  kd_meanreg: kd_meanreg      # saved members (no fit): mean of the 4 KD per-card C regressors
+  kdwide_cls: kdwide_cls
+  kdwide_reg: kdwide_reg
+  rdwide_cls: rdwide_cls
+  rdwide_reg: rdwide_reg
+w: 0.5
+clip: 1.0e-6
+references:
+  tabpfn_meanprob: output/baseline_2026_11_24_1207/tabpfn_meanprob/fusion
+  cogfusion_w050: output/cognitive_fusion_2026_11_24_1305/cogfusion_w050/fusion
+mmse_rules:                   # MMSE rule rows, computed in this package from the finished baseline run and the cohort MMSE
+  baseline_run: output/baseline_2026_11_24_1207
+contrasts:
+  - [wide_cf_w050, "ref:cogfusion_w050"]
+  - [kdwide_cls, kd_meanprob]
+  - [kdwide_reg, kd_meanreg]

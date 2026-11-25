@@ -1,0 +1,8 @@
+{
+ "rule": "MCI if MMSE <= 28",
+ "cutoff": 28.0,
+ "score": "rule prediction (1 if MMSE <= cutoff, else 0)",
+ "visits_without_mmse": [
+  "BEGMCI-010"
+ ]
+}

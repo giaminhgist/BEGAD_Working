@@ -1,0 +1,12 @@
+{
+ "rule": "mean of the per-task probabilities; threshold = Youden index on the inner OOF",
+ "source_model": "tabpfn",
+ "tasks": [
+  1,
+  3,
+  4,
+  5,
+  7,
+  9
+ ]
+}

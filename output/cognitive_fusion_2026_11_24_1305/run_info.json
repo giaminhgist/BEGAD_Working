@@ -1,0 +1,61 @@
+{
+ "family": "cognitive_fusion",
+ "status": "completed",
+ "smoke": false,
+ "command": "python -m cognitive_fusion.run --baseline-out output/baseline_2026_11_24_1207",
+ "seeds": [
+  0,
+  1,
+  7,
+  13,
+  42,
+  123,
+  777,
+  1234,
+  2024,
+  3407
+ ],
+ "start": "2026-11-24T13:05:37",
+ "end": "2026-11-24T13:15:18",
+ "cpu_count": 16,
+ "versions": {
+  "scikit-learn": "1.9.1",
+  "tabpfn": "10.2.0",
+  "torch": "2.15.0",
+  "numpy": "2.5.5",
+  "pandas": "3.1.1",
+  "scipy": "1.18.1",
+  "pyyaml": "6.0.3",
+  "python": "3.14.4"
+ },
+ "code_sha256": "9fd7e6df49aca0a931d4f5bc72f62f266315ccd4cb22c2d7b88d2fc8920b97a6",
+ "fold_sha256": {
+  "seed_0.csv": "2feec3b14df2285d3d7c1eecba9c46114ca2003b865292b26364de1b4f5e2c3a",
+  "seed_1.csv": "16db77680b993bebf6b69c3dbb9f950740afb6c1df038d316fd445f18ee6fe91",
+  "seed_7.csv": "d4602640c2287dd02e2bf74682c8ee86f67a685921dbe1319258e8c975bc5989",
+  "seed_13.csv": "124892d3e1ada87478d1e237150e00d512d27746dc3fafef853e28a9f5460846",
+  "seed_42.csv": "7f72690fe038051a6073c043226348804831597fa0fe10e03b690ddd7ce42f7c",
+  "seed_123.csv": "235afd3808b4d544328ebcf5126c1c62a0f9331337cdc89f38537a0c3abc424d",
+  "seed_777.csv": "cc930dc2f3d2dbf1fcc980f761ad7cb61a22bf95da9a4ffa7125bf408aa6755a",
+  "seed_1234.csv": "2215655cec33682b0e4344a9fa8a9164a60344dc66cad08f58015d5f91e0a11e",
+  "seed_2024.csv": "0cc98e9ba624cdf17a38a70c99d2eb7707edeb24a4580697491626a278e8d35e",
+  "seed_3407.csv": "363b5bc597d13d3502437c1e71f39a077e164dbe18ee9c5fb0878c910c41d43d"
+ },
+ "baseline_out": "output/baseline_2026_11_24_1207",
+ "baseline_code_sha256": "73bb8d48b37578ad0779ec8a039caa14833d356df62a909860ff91dc9228743d",
+ "arms": [
+  "cogfusion_w000",
+  "cogfusion_w025",
+  "cogfusion_w050",
+  "cogfusion_w075",
+  "cogfusion_w100"
+ ],
+ "primary": "cogfusion_w050",
+ "bootstrap": {
+  "B": 2000,
+  "seed": 20261120
+ },
+ "bootstrap_draws_sha256": "262e366b89ab26799e80c873a953dc9c51dfcc85c47f80c402b0024d0b83ecfc",
+ "wall_seconds": 581.7,
+ "regression_stage_seconds": 491.5
+}

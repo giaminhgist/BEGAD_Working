@@ -1,0 +1,5 @@
+{
+ "w": 0.75,
+ "z_scale": "per (seed, outer fold), inner-OOF rows only",
+ "clip": 1e-06
+}

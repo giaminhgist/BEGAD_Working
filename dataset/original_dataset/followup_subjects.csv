@@ -1,0 +1,45 @@
+mapping_row,followup_id,baseline_id,group,has_data_baseline,has_data_followup,missing_subject,coverage_status,baseline_orphan,baseline_in_cogdata,baseline_in_participants,baseline_et_filename,followup_et_filename,note,group_baseline,group_followup,used_in_analysis,reading_at_both_visits,clinical_baseline_id,comment
+1,BEG-101,BEGCO-001,CN,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGCO-001.csv,BEGAD_ETRA25_BEG-101.csv,,CN,CN,Yes,Yes,BEGCO-001,
+2,BEG-102,BEGCO-002,CN,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGCO-002.csv,BEGAD_ETRA25_BEG-102.csv,,CN,CN,Yes,Yes,BEGCO-002,
+3,BEG-103,BEGCO-003,MCI,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGCO-003.csv,BEGAD_ETRA25_BEG-103.csv,clinical_baseline_alias=BEGMCI-023,CN,MCI,Yes,Yes,BEGMCI-023,Converter. Clinical file lists the follow-up under a later ID (BEGMCI-023); the baseline recording is BEGCO-003.
+4,BEG-106,BEGCO-006,CN,False,False,both,neither,False,True,False,,,missing_baseline_et_file; missing_followup_et_file; baseline_not_in_participants,CN,CN,Yes,No,BEGCO-006,Reading failed the quality check at both visits; King-Devick is fine. Two baseline recordings; the February 2019 one is used.
+5,BEG-108,BEGCO-009,CN,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGCO-009.csv,BEGAD_ETRA25_BEG-108.csv,,CN,CN,Yes,Yes,BEGCO-009,
+6,BEG-109,BEGCO-010,CN,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGCO-010.csv,BEGAD_ETRA25_BEG-109.csv,,CN,CN,Yes,Yes,BEGCO-010,
+7,BEG-110,BEGCO-011,CN,True,False,followup,baseline_only,False,True,True,BEGAD_ETRA25_BEGCO-011.csv,,missing_followup_et_file,CN,CN,Yes,Yes,BEGCO-011,
+8,BEG-111,BEGCO-012,CN,False,False,both,neither,False,True,False,,,missing_baseline_et_file; missing_followup_et_file; baseline_not_in_participants,CN,UNKNOWN,No,,BEGCO-012,Not used: no follow-up eye-tracking recording.
+9,BEG-112,BEGCO-013,CN,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGCO-013.csv,BEGAD_ETRA25_BEG-112.csv,,CN,CN,Yes,Yes,BEGCO-013,
+10,BEG-113,BEGCO-014,CN,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGCO-014.csv,BEGAD_ETRA25_BEG-113.csv,,CN,CN,Yes,Yes,BEGCO-014,
+11,BEG-114,BEGCO-015,CN,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGCO-015.csv,BEGAD_ETRA25_BEG-114.csv,,CN,CN,Yes,Yes,BEGCO-015,
+12,BEG-115,BEGCO-016,CN,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGCO-016.csv,BEGAD_ETRA25_BEG-115.csv,,CN,CN,Yes,Yes,BEGCO-016,
+13,BEG-116,BEGCO-017,CN,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGCO-017.csv,BEGAD_ETRA25_BEG-116.csv,,CN,CN,Yes,Yes,BEGCO-017,
+14,BEG-117,BEGCO-018,CN,True,False,followup,baseline_only,False,True,True,BEGAD_ETRA25_BEGCO-018.csv,,missing_followup_et_file,CN,CN,No,,BEGCO-018,Not used: follow-up recording 25% valid samples (60% needed).
+15,BEG-118,BEGCO-019,CN,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGCO-019.csv,BEGAD_ETRA25_BEG-118.csv,,CN,CN,Yes,Yes,BEGCO-019,
+16,BEG-120,BEGCO-021,MCI,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGCO-021.csv,BEGAD_ETRA25_BEG-120.csv,clinical_baseline_alias=BEGMCI-022,CN,MCI,Yes,Yes,BEGMCI-022,Converter. Clinical file lists the follow-up under a later ID (BEGMCI-022); the baseline recording is BEGCO-021.
+17,BEG-121,BEGCO-022,CN,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGCO-022.csv,BEGAD_ETRA25_BEG-121.csv,,CN,CN,Yes,Yes,BEGCO-022,
+18,BEG-122,BEGCO-023,CN,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGCO-023.csv,BEGAD_ETRA25_BEG-122.csv,,CN,CN,Yes,Yes,BEGCO-023,
+19,BEG-123,BEGCO-024,CN,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGCO-024.csv,BEGAD_ETRA25_BEG-123.csv,,CN,CN,Yes,Yes,BEGCO-024,
+20,BEG-124,BEGCO-025,CN,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGCO-025.csv,BEGAD_ETRA25_BEG-124.csv,,CN,CN,Yes,Yes,BEGCO-025,
+21,BEG-125,BEGCO-027,CN,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGCO-027.csv,BEGAD_ETRA25_BEG-125.csv,,CN,CN,Yes,Yes,BEGCO-027,
+22,BEG-126,BEGCO-028,CN,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGCO-028.csv,BEGAD_ETRA25_BEG-126.csv,,CN,CN,Yes,Yes,BEGCO-028,
+23,BEG-127,BEGCO-029,CN,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGCO-029.csv,BEGAD_ETRA25_BEG-127.csv,,CN,CN,Yes,No,BEGCO-029,Reading failed the quality check at baseline; King-Devick is fine.
+24,BEG-129,BEGCO-031,MCI,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGCO-031.csv,BEGAD_ETRA25_BEG-129.csv,clinical_baseline_alias=BEGMCI-024,CN,MCI,Yes,No,BEGMCI-024,Converter. Clinical file lists the follow-up under a later ID (BEGMCI-024); the baseline recording is BEGCO-031. Reading failed the quality check at baseline; King-Devick is fine.
+25,BEG-130,BEGCO-032,CN,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGCO-032.csv,BEGAD_ETRA25_BEG-130.csv,,CN,CN,Yes,Yes,BEGCO-032,
+26,BEG-131,BEGCO-033,CN,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGCO-033.csv,BEGAD_ETRA25_BEG-131.csv,,CN,CN,Yes,Yes,BEGCO-033,
+27,BEG-132,BEGCO-035,CN,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGCO-035.csv,BEGAD_ETRA25_BEG-132.csv,,CN,CN,Yes,Yes,BEGCO-035,
+28,BEG-133,BEGCO-036,CN,True,False,followup,baseline_only,False,True,True,BEGAD_ETRA25_BEGCO-036.csv,,missing_followup_et_file,CN,CN,Yes,No,BEGCO-036,Reading failed the quality check at follow-up; King-Devick is fine.
+29,BEG-134,BEGCO-037,CN,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGCO-037.csv,BEGAD_ETRA25_BEG-134.csv,,CN,CN,Yes,Yes,BEGCO-037,
+30,BEG-135,BEGCO-038,CN,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGCO-038.csv,BEGAD_ETRA25_BEG-135.csv,,CN,CN,Yes,Yes,BEGCO-038,
+31,BEG-137,BEGCO-040,CN,True,False,followup,baseline_only,False,True,True,BEGAD_ETRA25_BEGCO-040.csv,,missing_followup_et_file,CN,CN,No,,BEGCO-040,Not used: follow-up recording 54% valid samples (60% needed).
+32,BEG-139,BEGMCI-002,MCI,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGMCI-002.csv,BEGAD_ETRA25_BEG-139.csv,,MCI,MCI,Yes,Yes,BEGMCI-002,
+33,BEG-140,BEGMCI-003,MCI,False,False,both,neither,False,True,False,,,missing_baseline_et_file; missing_followup_et_file; baseline_not_in_participants,MCI,MCI,No,,BEGMCI-003,"Not used: poor at both visits (baseline 40%, follow-up 51% valid)."
+34,BEG-142,BEGMCI-005,MCI,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGMCI-005.csv,BEGAD_ETRA25_BEG-142.csv,,MCI,MCI,Yes,Yes,BEGMCI-005,
+35,BEG-143,BEGMCI-006,MCI,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGMCI-006.csv,BEGAD_ETRA25_BEG-143.csv,,MCI,MCI,Yes,Yes,BEGMCI-006,
+36,BEG-144,BEGMCI-007,MCI,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGMCI-007.csv,BEGAD_ETRA25_BEG-144.csv,,MCI,MCI,Yes,Yes,BEGMCI-007,
+37,BEG-146,BEGMCI-009,MCI,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGMCI-009.csv,BEGAD_ETRA25_BEG-146.csv,,MCI,MCI,Yes,No,BEGMCI-009,Reading failed the quality check at follow-up; King-Devick is fine.
+38,BEG-148,BEGMCI-012,MCI,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGMCI-012.csv,BEGAD_ETRA25_BEG-148.csv,,MCI,MCI,Yes,Yes,BEGMCI-012,
+39,BEG-149,BEGMCI-013,AD,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGMCI-013.csv,BEGAD_ETRA25_BEG-149.csv,clinical_baseline_alias=BEGAD-022,MCI,AD,Yes,Yes,BEGAD-022,Converter. Clinical file lists the follow-up under a later ID (BEGAD-022); the baseline recording is BEGMCI-013.
+40,BEG-150,BEGMCI-014,MCI,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGMCI-014.csv,BEGAD_ETRA25_BEG-150.csv,,MCI,MCI,Yes,Yes,BEGMCI-014,
+41,BEG-152,BEGMCI-016,MCI,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGMCI-016.csv,BEGAD_ETRA25_BEG-152.csv,,MCI,MCI,Yes,Yes,BEGMCI-016,
+42,BEG-153,BEGMCI-017,MCI,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGMCI-017.csv,BEGAD_ETRA25_BEG-153.csv,,MCI,MCI,Yes,Yes,BEGMCI-017,
+43,BEG-154,BEGMCI-018,MCI,True,False,followup,baseline_only,False,True,True,BEGAD_ETRA25_BEGMCI-018.csv,,missing_followup_et_file,MCI,MCI,No,,BEGMCI-018,Not used: follow-up recording 35% valid samples (60% needed).
+44,BEG-157,BEGMCI-021,MCI,True,True,none,both,False,True,True,BEGAD_ETRA25_BEGMCI-021.csv,BEGAD_ETRA25_BEG-157.csv,,MCI,MCI,Yes,Yes,BEGMCI-021,

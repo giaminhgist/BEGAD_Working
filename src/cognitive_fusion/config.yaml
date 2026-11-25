@@ -1,0 +1,19 @@
+# cognitive_fusion: the baseline TabPFN mean-probability score combined with a TabPFN regression of a clinical
+# composite predicted from the eye features. Arms differ only in the weight w of the regressor (z scale).
+# Finished baseline output directory that holds the per-task `tabpfn` cells (set here or pass --baseline-out).
+baseline_out: null
+source:                       # per-task classifier cells read from the baseline output: <baseline_out>/<model>/task<t>/
+  model: tabpfn
+  tasks: [1, 3, 4, 5, 7, 9]
+reference:                    # baseline cell the fused score is compared with (identity check of the member + paired contrast)
+  model: tabpfn_meanprob
+  feature_set: fusion
+early_fusion:                 # optional secondary reference for the primary arm
+  model: tabpfn
+  feature_set: fusion
+sign: {mmse: -1, verbal: -1, word: -1, naming: -1, delayed: -1}   # higher composite C = more impaired
+min_scores: 3                 # rows with fewer non-missing scores are left out of the regressor's training rows
+regressor: {n_estimators: 2}
+w_grid: [0.0, 0.25, 0.5, 0.75, 1.0]
+clip: 1.0e-6
+primary: cogfusion_w050

@@ -1,0 +1,23 @@
+# Data configuration shared by every family. Paths are relative to the repository root.
+paths:
+  features_dir: dataset/features
+  cogdata: dataset/original_dataset/COGDATA_20260930.csv
+  fold_dir: dataset/fold
+cohort:
+  groups: [CN, MCI]
+  positive_group: MCI   # label 1; CN = 0
+tasks: [1, 3, 4, 5, 7, 9]
+# Dropped from every task and from fusion before anything else: its gaze box is pooled over all
+# recordings including held-out visits, i.e. a normalisation fitted outside the training folds.
+excluded_features: [gaze_quadrant_prop_bottom_left]
+metadata_columns: [RealTag, Group, IsFollowup, ParticipantID, CohortRole]
+cogdata_key: PotNumero   # joined on the features RealTag
+targets:                  # short name -> COGDATA column
+  mmse: MMSE
+  verbal: KielellSujuvuus
+  word: SanalistatYht
+  naming: Nimeämisteht
+  delayed: ViivästPalautus
+cv:
+  outer_splits: 4
+  inner_splits: 4

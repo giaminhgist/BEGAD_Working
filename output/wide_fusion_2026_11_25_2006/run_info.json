@@ -1,0 +1,368 @@
+{
+ "family": "wide_fusion",
+ "status": "completed",
+ "smoke": false,
+ "command": "python -m wide_fusion.run",
+ "seeds": [
+  0,
+  1,
+  7,
+  13,
+  42,
+  123,
+  777,
+  1234,
+  2024,
+  3407
+ ],
+ "start": "2026-11-25T20:06:32",
+ "end": "2026-11-25T20:19:21",
+ "cpu_count": 16,
+ "versions": {
+  "scikit-learn": "1.9.1",
+  "tabpfn": "10.2.0",
+  "torch": "2.15.0",
+  "numpy": "2.5.5",
+  "pandas": "3.1.1",
+  "scipy": "1.18.1",
+  "pyyaml": "6.0.3",
+  "python": "3.14.4"
+ },
+ "code_sha256": "71a51ed738142d927b826f3a5c10baf3fd7a74446a784c5cf722927fad38cf07",
+ "fold_sha256": {
+  "seed_0.csv": "2feec3b14df2285d3d7c1eecba9c46114ca2003b865292b26364de1b4f5e2c3a",
+  "seed_1.csv": "16db77680b993bebf6b69c3dbb9f950740afb6c1df038d316fd445f18ee6fe91",
+  "seed_7.csv": "d4602640c2287dd02e2bf74682c8ee86f67a685921dbe1319258e8c975bc5989",
+  "seed_13.csv": "124892d3e1ada87478d1e237150e00d512d27746dc3fafef853e28a9f5460846",
+  "seed_42.csv": "7f72690fe038051a6073c043226348804831597fa0fe10e03b690ddd7ce42f7c",
+  "seed_123.csv": "235afd3808b4d544328ebcf5126c1c62a0f9331337cdc89f38537a0c3abc424d",
+  "seed_777.csv": "cc930dc2f3d2dbf1fcc980f761ad7cb61a22bf95da9a4ffa7125bf408aa6755a",
+  "seed_1234.csv": "2215655cec33682b0e4344a9fa8a9164a60344dc66cad08f58015d5f91e0a11e",
+  "seed_2024.csv": "0cc98e9ba624cdf17a38a70c99d2eb7707edeb24a4580697491626a278e8d35e",
+  "seed_3407.csv": "363b5bc597d13d3502437c1e71f39a077e164dbe18ee9c5fb0878c910c41d43d"
+ },
+ "code_sha256_scope": "non-test .py of src/wide_fusion + src/common",
+ "config_sha256": "6edd03f0c185cde5ecdd7cb1d2dff5eb17f25dd168cd6d82e533963742848d64",
+ "army_seed": 0,
+ "input_sha256": {
+  "fold/seed_0.csv": "2feec3b14df2285d3d7c1eecba9c46114ca2003b865292b26364de1b4f5e2c3a",
+  "fold/seed_1.csv": "16db77680b993bebf6b69c3dbb9f950740afb6c1df038d316fd445f18ee6fe91",
+  "fold/seed_7.csv": "d4602640c2287dd02e2bf74682c8ee86f67a685921dbe1319258e8c975bc5989",
+  "fold/seed_13.csv": "124892d3e1ada87478d1e237150e00d512d27746dc3fafef853e28a9f5460846",
+  "fold/seed_42.csv": "7f72690fe038051a6073c043226348804831597fa0fe10e03b690ddd7ce42f7c",
+  "fold/seed_123.csv": "235afd3808b4d544328ebcf5126c1c62a0f9331337cdc89f38537a0c3abc424d",
+  "fold/seed_777.csv": "cc930dc2f3d2dbf1fcc980f761ad7cb61a22bf95da9a4ffa7125bf408aa6755a",
+  "fold/seed_1234.csv": "2215655cec33682b0e4344a9fa8a9164a60344dc66cad08f58015d5f91e0a11e",
+  "fold/seed_2024.csv": "0cc98e9ba624cdf17a38a70c99d2eb7707edeb24a4580697491626a278e8d35e",
+  "fold/seed_3407.csv": "363b5bc597d13d3502437c1e71f39a077e164dbe18ee9c5fb0878c910c41d43d",
+  "features/1": "efbf47b69e58c164c3682bb52060b8a9938d709ad0ced25fd0f52ad60f986054",
+  "features/3": "d13a6dc4285fca07866552ca9e54aa41d3d855bd7016e1d42f2f7e17a202c8ee",
+  "features/4": "ee7dee0dc0c30412ffd2f9e0b357b26ecf62349fb37d641eeddb4fa9a4d44c2c",
+  "features/5": "817dab9a268f533f6257a3ab8f28ba862cdd37403f0b9e9f82f1cb067cabf6d6",
+  "features/7": "00ce5589ba6b33e8ef41a29da6bb4bdc194771ebd60dfd9d481e941dc52eadd3",
+  "features/9": "d8db96798cad2747183663829a433016715ee71a83c8fec33ee948d54fa99e9d",
+  "cogdata": "c62700abb56824b1a7882fceab21aa22413c079c43175c0e746bf6d8a12a6c83",
+  "common/data.yaml": "bbd03a98e144c6c3de9e95ac062f191e5f0068aba3926e09e35644d21f98fb99",
+  "features.md": "016bf1b0dc194f23989b5497baf386457d94fcdbf50839ab794bb95c3e821ef2"
+ },
+ "fused_cells": [
+  "wide_cf_w050"
+ ],
+ "descriptive_cells": [
+  "kd_meanprob",
+  "kd_meanreg",
+  "kdwide_cls",
+  "kdwide_reg",
+  "rdwide_cls",
+  "rdwide_reg"
+ ],
+ "members": {
+  "wide_cls_e2": {
+   "kind": "classification",
+   "layout": "wide",
+   "n_estimators": 2
+  },
+  "wide_reg_C_e2": {
+   "kind": "regression",
+   "layout": "wide",
+   "n_estimators": 2,
+   "target": "C"
+  }
+ },
+ "baseline_classifier": {
+  "run": "output/baseline_2026_11_24_1207",
+  "code_sha256": "73bb8d48b37578ad0779ec8a039caa14833d356df62a909860ff91dc9228743d"
+ },
+ "references": {
+  "tabpfn_meanprob": {
+   "path": "output/baseline_2026_11_24_1207/tabpfn_meanprob/fusion",
+   "code_sha256": "73bb8d48b37578ad0779ec8a039caa14833d356df62a909860ff91dc9228743d"
+  },
+  "cogfusion_w050": {
+   "path": "output/cognitive_fusion_2026_11_24_1305/cogfusion_w050/fusion",
+   "code_sha256": "9fd7e6df49aca0a931d4f5bc72f62f266315ccd4cb22c2d7b88d2fc8920b97a6"
+  }
+ },
+ "bootstrap": {
+  "B": 2000,
+  "seed": 20261120
+ },
+ "bootstrap_draws_sha256": "262e366b89ab26799e80c873a953dc9c51dfcc85c47f80c402b0024d0b83ecfc",
+ "tabpfn_workers": 4,
+ "torch_threads_per_worker": 4,
+ "saved_member_identity": {
+  "predictions.csv": {
+   "max_abs_diff": 8.881784197001252e-16,
+   "rows": 1760
+  },
+  "inner_oof.csv": {
+   "max_abs_diff": 1.3322676295501878e-15,
+   "rows": 5280
+  }
+ },
+ "saved_member_sha256": {
+  "regression/task1/predictions.csv": "34877fc2960425858108db24ac28d0c1ee00abac01700ed05380e427e905349f",
+  "regression/task1/inner_oof.csv": "5865b48cc44e0ec717882d8e9e6ab302f5cf52da85276615cdaed392b27a1779",
+  "baseline/tabpfn/task1/predictions.csv": "66dc6190728b4418140cb5714d8070dc6c5e97326f56d7fdadd94ac6a60005b8",
+  "baseline/tabpfn/task1/inner_oof.csv": "0612a058376d6a056c4ac20f68d78c89cbc8233bb0696dea7fc1039e7a358f79",
+  "regression/task3/predictions.csv": "af98b577836851e5a69a9fc7576fc3e7e01cbb50f88f3bd3ce31f47987d6cdd5",
+  "regression/task3/inner_oof.csv": "e4d3a226cbd93ebba0d30fddac0a53e4fdaab98b1b3d1167c7d35466c635b9c1",
+  "baseline/tabpfn/task3/predictions.csv": "6c1cfa9c312c887e3f8ff4858c2dc6d138127e7eaec661adb4153e424cd582d9",
+  "baseline/tabpfn/task3/inner_oof.csv": "e162cd9f4d6d0c1e7eecdcf2f779a86966f92007557d46706d980b81c1d56600",
+  "regression/task4/predictions.csv": "b2aa64ddb9bc8f7b4fb18b23dd556a1d93b66fbe9404b2f87658c9fa4d264d91",
+  "regression/task4/inner_oof.csv": "bf3d6d5c8a8a334f7d993f7095960991aa014a6db6e74eac6d1663e52ac7afad",
+  "baseline/tabpfn/task4/predictions.csv": "6dbac748317b0f652374c3f28f46f13e3acc09319ade0d85c1f7fd47cec0af87",
+  "baseline/tabpfn/task4/inner_oof.csv": "8049fefef572bbc7fee1e35aa9427a6d30f7bfb3d4a4d6d568fbd421609db106",
+  "regression/task5/predictions.csv": "7ae4e37bd01cc70f7907aece16d817b47c16ce5778f23d380b3d9a6f64d86773",
+  "regression/task5/inner_oof.csv": "e7d14901c96db9351a9d43d0df072a10d804bdf86b711a6206109c4a343f4edc",
+  "baseline/tabpfn/task5/predictions.csv": "8a54401b7a364c5503cc87f5468c4eba3c291bbb411d801b22aee4b57c395244",
+  "baseline/tabpfn/task5/inner_oof.csv": "99bacfccab3e2e04e1fb3bf2e1371f1f944d737b8e24a170035698ff0f598f63",
+  "regression/task7/predictions.csv": "937d10365688ed6383bccf74ef2183bf66c6c018282da7ae70fe183442e81ed7",
+  "regression/task7/inner_oof.csv": "674b3bba6cb1a8f0bf4314a666c3810e0bb32be0d44af06a085c0570fe7b63ba",
+  "baseline/tabpfn/task7/predictions.csv": "039256ce9f09767f0d63fe7241fcb860f3513bee8570900268edda9985cbd774",
+  "baseline/tabpfn/task7/inner_oof.csv": "c52a64f0e5a2ec68bf0eebb884850745a3f06b9b24ab59b6b9a17bf7ec1fb993",
+  "regression/task9/predictions.csv": "385834bfb3e1021cf2c26abdbd688c531c72c9d66cefa2fe67671f92b5189657",
+  "regression/task9/inner_oof.csv": "808d25d6d526d7cf99e7aa1e7db2441a19586d72910916dec7671911aa1815da",
+  "baseline/tabpfn/task9/predictions.csv": "3501931c674817742409b6481b950fbc40ae830b451be05d38a487879e74e08c",
+  "baseline/tabpfn/task9/inner_oof.csv": "97bf3224664e2e1fdf06039dd7af690e26b1ed8e921640ca0ccea3e6b72afabc"
+ },
+ "tabpfn_feature_check": {
+  "wide_cls_e2": {
+   "kd": {
+    "n_fits": 200,
+    "columns_offered": {
+     "min": 252,
+     "max": 252
+    },
+    "degenerate_dropped": {
+     "n_fits_with_a_drop": 4,
+     "n_dropped_per_fit": {
+      "min": 0,
+      "max": 1
+     },
+     "per_fit": {
+      "seed1/o3/inner0": [
+       "t3__fixation_grid_occupancy_ratio"
+      ],
+      "seed7/o3/inner3": [
+       "t3__fixation_grid_occupancy_ratio"
+      ],
+      "seed2024/o0/inner0": [
+       "t3__fixation_grid_occupancy_ratio"
+      ],
+      "seed3407/o3/inner1": [
+       "t3__fixation_grid_occupancy_ratio"
+      ]
+     },
+     "note": "all-constant / all-NaN columns dropped by the wrapper's DropDegenerate rule (allowed); not subsampling"
+    },
+    "columns_fitted": {
+     "min": 251,
+     "max": 252
+    },
+    "offered_minus_dropped_equals_fitted": true,
+    "n_estimators": [
+     2
+    ],
+    "max_features_per_estimator": [
+     768
+    ],
+    "per_estimator_features_min": 251,
+    "per_estimator_features_max": 252,
+    "n_fits_with_a_subsampled_estimator": 0,
+    "all_estimators_see_all_fitted_columns": true
+   },
+   "reading": {
+    "n_fits": 200,
+    "columns_offered": {
+     "min": 120,
+     "max": 120
+    },
+    "degenerate_dropped": {
+     "n_fits_with_a_drop": 0,
+     "n_dropped_per_fit": {
+      "min": 0,
+      "max": 0
+     },
+     "per_fit": {},
+     "note": "all-constant / all-NaN columns dropped by the wrapper's DropDegenerate rule (allowed); not subsampling"
+    },
+    "columns_fitted": {
+     "min": 120,
+     "max": 120
+    },
+    "offered_minus_dropped_equals_fitted": true,
+    "n_estimators": [
+     2
+    ],
+    "max_features_per_estimator": [
+     768
+    ],
+    "per_estimator_features_min": 120,
+    "per_estimator_features_max": 120,
+    "n_fits_with_a_subsampled_estimator": 0,
+    "all_estimators_see_all_fitted_columns": true
+   }
+  },
+  "wide_reg_C_e2": {
+   "kd": {
+    "n_fits": 200,
+    "columns_offered": {
+     "min": 252,
+     "max": 252
+    },
+    "degenerate_dropped": {
+     "n_fits_with_a_drop": 4,
+     "n_dropped_per_fit": {
+      "min": 0,
+      "max": 1
+     },
+     "per_fit": {
+      "seed1/o3/inner0": [
+       "t3__fixation_grid_occupancy_ratio"
+      ],
+      "seed7/o3/inner3": [
+       "t3__fixation_grid_occupancy_ratio"
+      ],
+      "seed2024/o0/inner0": [
+       "t3__fixation_grid_occupancy_ratio"
+      ],
+      "seed3407/o3/inner1": [
+       "t3__fixation_grid_occupancy_ratio"
+      ]
+     },
+     "note": "all-constant / all-NaN columns dropped by the wrapper's DropDegenerate rule (allowed); not subsampling"
+    },
+    "columns_fitted": {
+     "min": 251,
+     "max": 252
+    },
+    "offered_minus_dropped_equals_fitted": true,
+    "n_estimators": [
+     2
+    ],
+    "max_features_per_estimator": [
+     768
+    ],
+    "per_estimator_features_min": 251,
+    "per_estimator_features_max": 252,
+    "n_fits_with_a_subsampled_estimator": 0,
+    "all_estimators_see_all_fitted_columns": true
+   },
+   "reading": {
+    "n_fits": 200,
+    "columns_offered": {
+     "min": 120,
+     "max": 120
+    },
+    "degenerate_dropped": {
+     "n_fits_with_a_drop": 0,
+     "n_dropped_per_fit": {
+      "min": 0,
+      "max": 0
+     },
+     "per_fit": {},
+     "note": "all-constant / all-NaN columns dropped by the wrapper's DropDegenerate rule (allowed); not subsampling"
+    },
+    "columns_fitted": {
+     "min": 120,
+     "max": 120
+    },
+    "offered_minus_dropped_equals_fitted": true,
+    "n_estimators": [
+     2
+    ],
+    "max_features_per_estimator": [
+     768
+    ],
+    "per_estimator_features_min": 120,
+    "per_estimator_features_max": 120,
+    "n_fits_with_a_subsampled_estimator": 0,
+    "all_estimators_see_all_fitted_columns": true
+   }
+  }
+ },
+ "context_rows": {
+  "wide_cls_e2": {
+   "kd": {
+    "inner": {
+     "min": 97.0,
+     "median": 99.0,
+     "max": 101.0
+    },
+    "refit": {
+     "min": 131.0,
+     "median": 132.0,
+     "max": 133.0
+    }
+   },
+   "reading": {
+    "inner": {
+     "min": 97.0,
+     "median": 99.0,
+     "max": 101.0
+    },
+    "refit": {
+     "min": 131.0,
+     "median": 132.0,
+     "max": 133.0
+    }
+   }
+  },
+  "wide_reg_C_e2": {
+   "kd": {
+    "inner": {
+     "min": 96.0,
+     "median": 99.0,
+     "max": 101.0
+    },
+    "refit": {
+     "min": 130.0,
+     "median": 131.0,
+     "max": 133.0
+    }
+   },
+   "reading": {
+    "inner": {
+     "min": 96.0,
+     "median": 99.0,
+     "max": 101.0
+    },
+    "refit": {
+     "min": 130.0,
+     "median": 131.0,
+     "max": 133.0
+    }
+   }
+  }
+ },
+ "wall_seconds": 768.3,
+ "stage_seconds": {
+  "jobs": 666.5,
+  "cells_and_bootstrap": 87.6
+ },
+ "job_seconds_by_member": {
+  "wide_cls_e2": 1320.2,
+  "wide_reg_C_e2": 1287.1
+ }
+}

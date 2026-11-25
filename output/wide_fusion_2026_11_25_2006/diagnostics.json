@@ -1,0 +1,478 @@
+{
+ "inner_spearman_rbar_target": {
+  "wide_reg_C_e2": {
+   "target": "C",
+   "per_seed": {
+    "0": 0.3626550191629602,
+    "1": 0.35242820871614816,
+    "7": 0.35527689296295584,
+    "13": 0.38974634531595986,
+    "42": 0.36363818806810516,
+    "123": 0.3615861584676124,
+    "777": 0.36978788369198173,
+    "1234": 0.3577893916218826,
+    "2024": 0.38770011268768306,
+    "3407": 0.373575611229195
+   },
+   "mean": 0.3674183811924484,
+   "note": "inner-OOF r\u0304 vs C on the outer-training scale, pooled over outer folds"
+  }
+ },
+ "context_rows": {
+  "wide_cls_e2": {
+   "kd": {
+    "inner": {
+     "n": 160,
+     "mean": 99.0,
+     "median": 99.0,
+     "min": 97.0,
+     "max": 101.0,
+     "query_rows": {
+      "n": 160,
+      "mean": 33.0,
+      "median": 33.0,
+      "min": 32.0,
+      "max": 34.0
+     }
+    },
+    "refit": {
+     "n": 40,
+     "mean": 132.0,
+     "median": 132.0,
+     "min": 131.0,
+     "max": 133.0,
+     "query_rows": {
+      "n": 40,
+      "mean": 44.0,
+      "median": 44.0,
+      "min": 43.0,
+      "max": 45.0
+     }
+    }
+   },
+   "reading": {
+    "inner": {
+     "n": 160,
+     "mean": 99.0,
+     "median": 99.0,
+     "min": 97.0,
+     "max": 101.0,
+     "query_rows": {
+      "n": 160,
+      "mean": 33.0,
+      "median": 33.0,
+      "min": 32.0,
+      "max": 34.0
+     }
+    },
+    "refit": {
+     "n": 40,
+     "mean": 132.0,
+     "median": 132.0,
+     "min": 131.0,
+     "max": 133.0,
+     "query_rows": {
+      "n": 40,
+      "mean": 44.0,
+      "median": 44.0,
+      "min": 43.0,
+      "max": 45.0
+     }
+    }
+   }
+  },
+  "wide_reg_C_e2": {
+   "kd": {
+    "inner": {
+     "n": 160,
+     "mean": 98.4375,
+     "median": 99.0,
+     "min": 96.0,
+     "max": 101.0,
+     "query_rows": {
+      "n": 160,
+      "mean": 33.0,
+      "median": 33.0,
+      "min": 32.0,
+      "max": 34.0
+     }
+    },
+    "refit": {
+     "n": 40,
+     "mean": 131.25,
+     "median": 131.0,
+     "min": 130.0,
+     "max": 133.0,
+     "query_rows": {
+      "n": 40,
+      "mean": 44.0,
+      "median": 44.0,
+      "min": 43.0,
+      "max": 45.0
+     }
+    }
+   },
+   "reading": {
+    "inner": {
+     "n": 160,
+     "mean": 98.4375,
+     "median": 99.0,
+     "min": 96.0,
+     "max": 101.0,
+     "query_rows": {
+      "n": 160,
+      "mean": 33.0,
+      "median": 33.0,
+      "min": 32.0,
+      "max": 34.0
+     }
+    },
+    "refit": {
+     "n": 40,
+     "mean": 131.25,
+     "median": 131.0,
+     "min": 130.0,
+     "max": 133.0,
+     "query_rows": {
+      "n": 40,
+      "mean": 44.0,
+      "median": 44.0,
+      "min": 43.0,
+      "max": 45.0
+     }
+    }
+   }
+  }
+ },
+ "seconds_per_fit": {
+  "wide_cls_e2": {
+   "kd": {
+    "inner": {
+     "fit": {
+      "n": 160,
+      "mean": 0.20677583068122657,
+      "median": 0.20349706349588814,
+      "min": 0.14387460699799703,
+      "max": 0.33973920599964913
+     },
+     "predict": {
+      "n": 160,
+      "mean": 3.8200134558939682,
+      "median": 3.845512758500263,
+      "min": 3.302181630002451,
+      "max": 4.070578931001364
+     }
+    },
+    "refit": {
+     "fit": {
+      "n": 40,
+      "mean": 0.2385636911754773,
+      "median": 0.2378597599999921,
+      "min": 0.1846683639960247,
+      "max": 0.33166817700112006
+     },
+     "predict": {
+      "n": 40,
+      "mean": 4.846968431774622,
+      "median": 4.853417358499428,
+      "min": 4.46749186499801,
+      "max": 5.302040679998754
+     }
+    }
+   },
+   "reading": {
+    "inner": {
+     "fit": {
+      "n": 160,
+      "mean": 0.19358374246262428,
+      "median": 0.19457364499976393,
+      "min": 0.1344944150041556,
+      "max": 0.3237114459989243
+     },
+     "predict": {
+      "n": 160,
+      "mean": 1.673864706724953,
+      "median": 1.6865166614988993,
+      "min": 1.3607327959980466,
+      "max": 1.8616001569971559
+     }
+    },
+    "refit": {
+     "fit": {
+      "n": 40,
+      "mean": 0.19317794552443956,
+      "median": 0.19511491299999761,
+      "min": 0.14188546500372468,
+      "max": 0.23715779399935855
+     },
+     "predict": {
+      "n": 40,
+      "mean": 2.1140229962253216,
+      "median": 2.1242649985033495,
+      "min": 1.8441351870060316,
+      "max": 2.3548889169978793
+     }
+    }
+   }
+  },
+  "wide_reg_C_e2": {
+   "kd": {
+    "inner": {
+     "fit": {
+      "n": 160,
+      "mean": 0.20423798022479786,
+      "median": 0.20750072299779276,
+      "min": 0.14704673400410684,
+      "max": 0.29496865999681177
+     },
+     "predict": {
+      "n": 160,
+      "mean": 3.744548989887562,
+      "median": 3.8164033990033204,
+      "min": 3.1371268130023964,
+      "max": 4.085220225002558
+     }
+    },
+    "refit": {
+     "fit": {
+      "n": 40,
+      "mean": 0.2427178832997015,
+      "median": 0.2504379810015962,
+      "min": 0.17257584699837025,
+      "max": 0.3103336050044163
+     },
+     "predict": {
+      "n": 40,
+      "mean": 4.699409028400078,
+      "median": 4.855447117999574,
+      "min": 3.152800636999018,
+      "max": 5.044209861000127
+     }
+    }
+   },
+   "reading": {
+    "inner": {
+     "fit": {
+      "n": 160,
+      "mean": 0.18950828055644706,
+      "median": 0.19167349049894256,
+      "min": 0.1415797899971949,
+      "max": 0.29124567600229057
+     },
+     "predict": {
+      "n": 160,
+      "mean": 1.6365861782690445,
+      "median": 1.6628438144980464,
+      "min": 1.263052082998911,
+      "max": 1.781388944000355
+     }
+    },
+    "refit": {
+     "fit": {
+      "n": 40,
+      "mean": 0.19244059865050075,
+      "median": 0.19407035049880506,
+      "min": 0.13616280800488312,
+      "max": 0.2363239690021146
+     },
+     "predict": {
+      "n": 40,
+      "mean": 2.0170322314748774,
+      "median": 2.056895150002674,
+      "min": 1.343736214999808,
+      "max": 2.228955116996076
+     }
+    }
+   }
+  }
+ },
+ "job_seconds": {
+  "wide_cls_e2": {
+   "n": 40,
+   "mean": 33.00419446600063,
+   "median": 33.24314214599872,
+   "min": 29.810057454000344,
+   "max": 34.54664892800065
+  },
+  "wide_reg_C_e2": {
+   "n": 40,
+   "mean": 32.177557743975015,
+   "median": 32.932368017500266,
+   "min": 28.080070424999576,
+   "max": 33.72090511600254
+  }
+ },
+ "target_excluded_visits": {
+  "wide_reg_C_e2": [
+   "BEGMCI-010"
+  ]
+ },
+ "reference_test_auc": {
+  "tabpfn_meanprob": {
+   "mean": 0.7014571948998178,
+   "lo": 0.6192856722258796,
+   "hi": 0.7813283085437565
+  },
+  "cogfusion_w050": {
+   "mean": 0.7245294474802673,
+   "lo": 0.640215215033709,
+   "hi": 0.8067272927689594
+  }
+ },
+ "tabpfn_feature_check": {
+  "wide_cls_e2": {
+   "kd": {
+    "n_fits": 200,
+    "columns_offered": {
+     "min": 252,
+     "max": 252
+    },
+    "degenerate_dropped": {
+     "n_fits_with_a_drop": 4,
+     "n_dropped_per_fit": {
+      "min": 0,
+      "max": 1
+     },
+     "per_fit": {
+      "seed1/o3/inner0": [
+       "t3__fixation_grid_occupancy_ratio"
+      ],
+      "seed7/o3/inner3": [
+       "t3__fixation_grid_occupancy_ratio"
+      ],
+      "seed2024/o0/inner0": [
+       "t3__fixation_grid_occupancy_ratio"
+      ],
+      "seed3407/o3/inner1": [
+       "t3__fixation_grid_occupancy_ratio"
+      ]
+     },
+     "note": "all-constant / all-NaN columns dropped by the wrapper's DropDegenerate rule (allowed); not subsampling"
+    },
+    "columns_fitted": {
+     "min": 251,
+     "max": 252
+    },
+    "offered_minus_dropped_equals_fitted": true,
+    "n_estimators": [
+     2
+    ],
+    "max_features_per_estimator": [
+     768
+    ],
+    "per_estimator_features_min": 251,
+    "per_estimator_features_max": 252,
+    "n_fits_with_a_subsampled_estimator": 0,
+    "all_estimators_see_all_fitted_columns": true
+   },
+   "reading": {
+    "n_fits": 200,
+    "columns_offered": {
+     "min": 120,
+     "max": 120
+    },
+    "degenerate_dropped": {
+     "n_fits_with_a_drop": 0,
+     "n_dropped_per_fit": {
+      "min": 0,
+      "max": 0
+     },
+     "per_fit": {},
+     "note": "all-constant / all-NaN columns dropped by the wrapper's DropDegenerate rule (allowed); not subsampling"
+    },
+    "columns_fitted": {
+     "min": 120,
+     "max": 120
+    },
+    "offered_minus_dropped_equals_fitted": true,
+    "n_estimators": [
+     2
+    ],
+    "max_features_per_estimator": [
+     768
+    ],
+    "per_estimator_features_min": 120,
+    "per_estimator_features_max": 120,
+    "n_fits_with_a_subsampled_estimator": 0,
+    "all_estimators_see_all_fitted_columns": true
+   }
+  },
+  "wide_reg_C_e2": {
+   "kd": {
+    "n_fits": 200,
+    "columns_offered": {
+     "min": 252,
+     "max": 252
+    },
+    "degenerate_dropped": {
+     "n_fits_with_a_drop": 4,
+     "n_dropped_per_fit": {
+      "min": 0,
+      "max": 1
+     },
+     "per_fit": {
+      "seed1/o3/inner0": [
+       "t3__fixation_grid_occupancy_ratio"
+      ],
+      "seed7/o3/inner3": [
+       "t3__fixation_grid_occupancy_ratio"
+      ],
+      "seed2024/o0/inner0": [
+       "t3__fixation_grid_occupancy_ratio"
+      ],
+      "seed3407/o3/inner1": [
+       "t3__fixation_grid_occupancy_ratio"
+      ]
+     },
+     "note": "all-constant / all-NaN columns dropped by the wrapper's DropDegenerate rule (allowed); not subsampling"
+    },
+    "columns_fitted": {
+     "min": 251,
+     "max": 252
+    },
+    "offered_minus_dropped_equals_fitted": true,
+    "n_estimators": [
+     2
+    ],
+    "max_features_per_estimator": [
+     768
+    ],
+    "per_estimator_features_min": 251,
+    "per_estimator_features_max": 252,
+    "n_fits_with_a_subsampled_estimator": 0,
+    "all_estimators_see_all_fitted_columns": true
+   },
+   "reading": {
+    "n_fits": 200,
+    "columns_offered": {
+     "min": 120,
+     "max": 120
+    },
+    "degenerate_dropped": {
+     "n_fits_with_a_drop": 0,
+     "n_dropped_per_fit": {
+      "min": 0,
+      "max": 0
+     },
+     "per_fit": {},
+     "note": "all-constant / all-NaN columns dropped by the wrapper's DropDegenerate rule (allowed); not subsampling"
+    },
+    "columns_fitted": {
+     "min": 120,
+     "max": 120
+    },
+    "offered_minus_dropped_equals_fitted": true,
+    "n_estimators": [
+     2
+    ],
+    "max_features_per_estimator": [
+     768
+    ],
+    "per_estimator_features_min": 120,
+    "per_estimator_features_max": 120,
+    "n_fits_with_a_subsampled_estimator": 0,
+    "all_estimators_see_all_fitted_columns": true
+   }
+  }
+ }
+}

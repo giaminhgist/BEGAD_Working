@@ -1,0 +1,542 @@
+{
+ "0": {
+  "0": {
+   "params": {
+    "C": 0.01,
+    "class_weight": "balanced"
+   },
+   "config_idx": 3,
+   "inner_score": 0.7368131868131869,
+   "threshold": 0.4078096444780253,
+   "refit_seconds": 0.0099840500006394,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "1": {
+   "params": {
+    "C": 1,
+    "class_weight": null
+   },
+   "config_idx": 6,
+   "inner_score": 0.6659597030752916,
+   "threshold": 0.18404538167531148,
+   "refit_seconds": 0.014509493999867118,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "2": {
+   "params": {
+    "C": 10,
+    "class_weight": "balanced"
+   },
+   "config_idx": 9,
+   "inner_score": 0.5948369565217392,
+   "threshold": 0.15238774636258767,
+   "refit_seconds": 0.023499138000261155,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "3": {
+   "params": {
+    "C": 0.001,
+    "class_weight": "balanced"
+   },
+   "config_idx": 1,
+   "inner_score": 0.7142857142857143,
+   "threshold": 0.4787010252890122,
+   "refit_seconds": 0.01057803799994872,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  }
+ },
+ "1": {
+  "0": {
+   "params": {
+    "C": 1,
+    "class_weight": null
+   },
+   "config_idx": 6,
+   "inner_score": 0.7428571428571429,
+   "threshold": 0.4225668835094421,
+   "refit_seconds": 0.01418464599919389,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "1": {
+   "params": {
+    "C": 0.001,
+    "class_weight": "balanced"
+   },
+   "config_idx": 1,
+   "inner_score": 0.6762990455991517,
+   "threshold": 0.4977704509426117,
+   "refit_seconds": 0.010935624000921962,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "2": {
+   "params": {
+    "C": 0.001,
+    "class_weight": null
+   },
+   "config_idx": 0,
+   "inner_score": 0.6714017689627446,
+   "threshold": 0.321819649176329,
+   "refit_seconds": 0.008955519999290118,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "3": {
+   "params": {
+    "C": 0.01,
+    "class_weight": null
+   },
+   "config_idx": 2,
+   "inner_score": 0.7070652173913043,
+   "threshold": 0.28372029703365653,
+   "refit_seconds": 0.009308122000220465,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  }
+ },
+ "7": {
+  "0": {
+   "params": {
+    "C": 1,
+    "class_weight": null
+   },
+   "config_idx": 6,
+   "inner_score": 0.6813186813186813,
+   "threshold": 0.14223153460421417,
+   "refit_seconds": 0.015713503998995293,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "1": {
+   "params": {
+    "C": 0.01,
+    "class_weight": null
+   },
+   "config_idx": 2,
+   "inner_score": 0.7303671937818279,
+   "threshold": 0.34268882697017977,
+   "refit_seconds": 0.009654814000896295,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "2": {
+   "params": {
+    "C": 0.001,
+    "class_weight": "balanced"
+   },
+   "config_idx": 1,
+   "inner_score": 0.6410392364793213,
+   "threshold": 0.5297524075797252,
+   "refit_seconds": 0.011253638000198407,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "3": {
+   "params": {
+    "C": 0.01,
+    "class_weight": null
+   },
+   "config_idx": 2,
+   "inner_score": 0.6573369565217392,
+   "threshold": 0.2791414463744764,
+   "refit_seconds": 0.009275342001274112,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  }
+ },
+ "13": {
+  "0": {
+   "params": {
+    "C": 0.001,
+    "class_weight": null
+   },
+   "config_idx": 0,
+   "inner_score": 0.5923076923076923,
+   "threshold": 0.29900184134744195,
+   "refit_seconds": 0.008839858999635908,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "1": {
+   "params": {
+    "C": 0.1,
+    "class_weight": null
+   },
+   "config_idx": 4,
+   "inner_score": 0.6585365853658537,
+   "threshold": 0.3498063601741961,
+   "refit_seconds": 0.011469619001218234,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "2": {
+   "params": {
+    "C": 0.01,
+    "class_weight": null
+   },
+   "config_idx": 2,
+   "inner_score": 0.7086956521739131,
+   "threshold": 0.27614455043344505,
+   "refit_seconds": 0.008077055001194822,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "3": {
+   "params": {
+    "C": 0.1,
+    "class_weight": null
+   },
+   "config_idx": 4,
+   "inner_score": 0.7233985526668454,
+   "threshold": 0.21836012411731817,
+   "refit_seconds": 0.01044986200031417,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  }
+ },
+ "42": {
+  "0": {
+   "params": {
+    "C": 1,
+    "class_weight": null
+   },
+   "config_idx": 6,
+   "inner_score": 0.6563186813186813,
+   "threshold": 0.17553253303234237,
+   "refit_seconds": 0.014680577000035555,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "1": {
+   "params": {
+    "C": 0.001,
+    "class_weight": "balanced"
+   },
+   "config_idx": 1,
+   "inner_score": 0.6035915304207987,
+   "threshold": 0.48318975135394254,
+   "refit_seconds": 0.013439165999443503,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "2": {
+   "params": {
+    "C": 1,
+    "class_weight": null
+   },
+   "config_idx": 6,
+   "inner_score": 0.7282608695652174,
+   "threshold": 0.4549969405554375,
+   "refit_seconds": 0.013834815999871353,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "3": {
+   "params": {
+    "C": 0.01,
+    "class_weight": "balanced"
+   },
+   "config_idx": 3,
+   "inner_score": 0.6951086956521739,
+   "threshold": 0.41686456354499274,
+   "refit_seconds": 0.013064646000202629,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  }
+ },
+ "123": {
+  "0": {
+   "params": {
+    "C": 1,
+    "class_weight": "balanced"
+   },
+   "config_idx": 7,
+   "inner_score": 0.6038595550790673,
+   "threshold": 0.09479691899256118,
+   "refit_seconds": 0.016212530999837327,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "1": {
+   "params": {
+    "C": 0.1,
+    "class_weight": null
+   },
+   "config_idx": 4,
+   "inner_score": 0.7362637362637363,
+   "threshold": 0.2662702547485425,
+   "refit_seconds": 0.011712192999766557,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "2": {
+   "params": {
+    "C": 0.001,
+    "class_weight": null
+   },
+   "config_idx": 0,
+   "inner_score": 0.6919406150583245,
+   "threshold": 0.29697521116627246,
+   "refit_seconds": 0.008944233000875101,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "3": {
+   "params": {
+    "C": 0.1,
+    "class_weight": null
+   },
+   "config_idx": 4,
+   "inner_score": 0.6298913043478261,
+   "threshold": 0.5473142887032224,
+   "refit_seconds": 0.011905388000741368,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  }
+ },
+ "777": {
+  "0": {
+   "params": {
+    "C": 1,
+    "class_weight": "balanced"
+   },
+   "config_idx": 7,
+   "inner_score": 0.7104395604395605,
+   "threshold": 0.4066001853131237,
+   "refit_seconds": 0.018698485000641085,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "1": {
+   "params": {
+    "C": 0.001,
+    "class_weight": "balanced"
+   },
+   "config_idx": 1,
+   "inner_score": 0.6155885471898197,
+   "threshold": 0.4908492297518925,
+   "refit_seconds": 0.010003887000493705,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "2": {
+   "params": {
+    "C": 0.01,
+    "class_weight": null
+   },
+   "config_idx": 2,
+   "inner_score": 0.6912355936746181,
+   "threshold": 0.3183596844411435,
+   "refit_seconds": 0.010484910999366548,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "3": {
+   "params": {
+    "C": 0.1,
+    "class_weight": "balanced"
+   },
+   "config_idx": 5,
+   "inner_score": 0.6690217391304348,
+   "threshold": 0.5236738749411701,
+   "refit_seconds": 0.011125415998321841,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  }
+ },
+ "1234": {
+  "0": {
+   "params": {
+    "C": 0.1,
+    "class_weight": "balanced"
+   },
+   "config_idx": 5,
+   "inner_score": 0.7483516483516484,
+   "threshold": 0.3865512949128259,
+   "refit_seconds": 0.010992606001309468,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "1": {
+   "params": {
+    "C": 1,
+    "class_weight": null
+   },
+   "config_idx": 6,
+   "inner_score": 0.7171261930010604,
+   "threshold": 0.6620319914803373,
+   "refit_seconds": 0.013059450000582729,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "2": {
+   "params": {
+    "C": 100,
+    "class_weight": "balanced"
+   },
+   "config_idx": 11,
+   "inner_score": 0.6095108695652174,
+   "threshold": 0.3575062337718589,
+   "refit_seconds": 0.0310736960000213,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "3": {
+   "params": {
+    "C": 0.001,
+    "class_weight": null
+   },
+   "config_idx": 0,
+   "inner_score": 0.6660412757973734,
+   "threshold": 0.3040914366435596,
+   "refit_seconds": 0.010647015000358806,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  }
+ },
+ "2024": {
+  "0": {
+   "params": {
+    "C": 0.1,
+    "class_weight": null
+   },
+   "config_idx": 4,
+   "inner_score": 0.7112637362637363,
+   "threshold": 0.21083667563907102,
+   "refit_seconds": 0.012076995000825264,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "1": {
+   "params": {
+    "C": 0.001,
+    "class_weight": "balanced"
+   },
+   "config_idx": 1,
+   "inner_score": 0.6739130434782609,
+   "threshold": 0.49348111764680985,
+   "refit_seconds": 0.012614938999831793,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "2": {
+   "params": {
+    "C": 0.001,
+    "class_weight": "balanced"
+   },
+   "config_idx": 1,
+   "inner_score": 0.700424178154825,
+   "threshold": 0.4872731783756211,
+   "refit_seconds": 0.010999517000527703,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "3": {
+   "params": {
+    "C": 0.001,
+    "class_weight": "balanced"
+   },
+   "config_idx": 1,
+   "inner_score": 0.6856070758509782,
+   "threshold": 0.4876586747036807,
+   "refit_seconds": 0.010006249998696148,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  }
+ },
+ "3407": {
+  "0": {
+   "params": {
+    "C": 0.001,
+    "class_weight": "balanced"
+   },
+   "config_idx": 1,
+   "inner_score": 0.6689560439560439,
+   "threshold": 0.490445101583851,
+   "refit_seconds": 0.011542004000148154,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "1": {
+   "params": {
+    "C": 0.01,
+    "class_weight": "balanced"
+   },
+   "config_idx": 3,
+   "inner_score": 0.7017497348886532,
+   "threshold": 0.3917596206286381,
+   "refit_seconds": 0.011127593999844976,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "2": {
+   "params": {
+    "C": 1,
+    "class_weight": null
+   },
+   "config_idx": 6,
+   "inner_score": 0.7720108695652174,
+   "threshold": 0.37782986100680954,
+   "refit_seconds": 0.014384390000486746,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  },
+  "3": {
+   "params": {
+    "C": 100,
+    "class_weight": "balanced"
+   },
+   "config_idx": 11,
+   "inner_score": 0.6354864647547575,
+   "threshold": 0.002580384825951706,
+   "refit_seconds": 0.03225831199961249,
+   "n_convergence_warnings": 0,
+   "n_features_after_drop": 63,
+   "dropped_columns": []
+  }
+ }
+}
